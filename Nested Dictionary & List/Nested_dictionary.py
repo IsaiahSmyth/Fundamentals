@@ -1,4 +1,4 @@
-# Challenge 1
+# Chanllenge 1
 x = [ [5,2,3], [10,8,9] ] 
 students = [
      {'first_name':  'Michael', 'last_name' : 'Jordan'},
@@ -26,9 +26,7 @@ print(sports_directory)
 z[0]['y'] = 30
 print(z)
 
-
-
-# Chanllenge 2
+# Challenge 2
 students = [
          {'first_name':  'Michael', 'last_name' : 'Jordan'},
          {'first_name' : 'John', 'last_name' : 'Rosales'},
@@ -47,17 +45,14 @@ iterateDictionary(students)
 # first_name - Mark, last_name - Guillen
 # first_name - KB, last_name - Tonel
 
-
-# chanllenge 3
+# Challenge 3
 def iterateDictionary2(key_name, some_list):
     for val in some_list:
         print(val[key_name])
 iterateDictionary2("first_name", students)
 iterateDictionary2("last_name", students)
 
-
-
-# Chanllenge 4
+# Challenge 4
 dojo = {
    'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
    'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
@@ -82,7 +77,6 @@ dojo = {
 # Patrick
 # Minh
 # Devon
-
 
 
 def printInfo(some_dict):
