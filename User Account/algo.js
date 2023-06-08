@@ -21,5 +21,12 @@ const expected9 = "567765";
  * @returns {string} The longest palindromic substring from the given string.
  */
 function longestPalindromicSubstring(str) {
-
+    let result = "";
+    for (let i = 0; i < str.length; i++){
+        for (let j = i; j < i.length; j++){
+            result = i.split()
+            console.log(result)
+        }
+    }
 }
+longestPalindromicSubstring(str6)
